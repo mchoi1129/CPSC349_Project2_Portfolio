@@ -1,0 +1,91 @@
+.background {
+    background-color: rgb(216, 236, 253);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 600px;
+    padding: 5rem;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 30px auto 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.leftColumn {
+    grid-column: 1/2;
+}
+
+.rightColumn {
+    grid-column: 2/3;
+}
+
+.button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+}
+
+.inputBox {
+    background-color: #969696;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 200px;
+    height: 30px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.inputBox:focus {
+    border: 3px solid #0000ff;
+    background-color: #ffffff;
+}
+
+.inputBox:hover {
+    border: 3px solid #0000ff;
+    background-color: #ffffff;
+}
+
+.messageBox {
+    background-color: #969696;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 80%;
+    height: 100px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.messageBox:focus {
+    border: 3px solid #0000ff;
+    background-color: #ffffff;
+}
+
+.messageBox:hover {
+    border: 3px solid #0000ff;
+    background-color: #ffffff;
+}
